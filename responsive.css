@@ -1,0 +1,95 @@
+@media (max-width:768px){/*aqui le estamos diciendo que cuando llegue a los 768px aparezca el menu reponsive*/
+    header label{display: block; height: 80%;}
+    .menu{position: absolute; background:rgb(29, 32, 41); width: 70%;margin-left: -70%; transition: all 0.5s;}
+
+    .menu ul{flex-direction: column;}
+    .menu li{
+        border-top: 1px solid 002e5b;
+    }
+    .menu li a{display:block;padding: 20px 40px;color:#fff; text-decoration:none ;}
+
+    #btn-menu:checked ~ .menu{
+        margin: 0;
+    }
+
+
+/*body{background-image:url(moda1.jpg); background-repeat: no-repeat; background-size: 1500px 400px;}*/
+
+/*slider responsive*/
+body{background-image: url(zaman.png); background-repeat: no-repeat; background-size: 90px 80px;}
+
+/*aqui empieza el contenedor de la pagina*/
+
+.contenedor{
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    
+}
+p{float:center;width: 70%; text-align: justify;}
+
+h1{margin: 0px ;  font-size: 30px; padding: 15px 0px; color: brown;position: 20px 10px;}
+
+/*aqui empieza el contenedor uno*/
+
+.contenedordos{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    
+}
+h2{width:100%;position:relative;margin: 0px ;  font-size: 20px; left: -1px; color: rgb(56, 38, 138); top:370px;}
+h2 a{text-decoration: none;}/*esto sirve para quitarle la linea al vinculo*/
+p.anunciouno{width: 80%; text-align: justify; top:700px; left: 10%;}
+#imagenuno {
+    position:relative;
+    top: 400px; /* ajustar los valores para mover la imagen */
+    left:1%;
+    width: 270;
+    height: 270px;
+    border-radius: 50%;
+    margin:auto;
+    border:2px solid rgb(29, 10, 63);
+    display: block;
+   
+}
+
+header{width: 100%;padding: 10px 0px; display: table; background-color: rgb(29, 32, 41); margin-bottom: 0px; z-index: 1000;position: fixed; top: 0px;
+    background-image: url(img/logo.jpg); background-repeat: no-repeat;background-size: 100px 80px;background-position: right;}
+
+
+
+    .contenedortres{
+        position: relative;
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+        
+    }
+    h3{width:100%;position:relative;margin: 0px ;  font-size: 20px; left: -1px; color: rgb(56, 38, 138); top:600px;}
+    h3 a{text-decoration: none;}/*esto sirve para quitarle la linea al vinculo*/
+    p.anunciodos{width: 80%; text-align: justify; top:950px; left: 10%;}
+    #imagendos {
+        position:relative;
+        top: 650px; /* ajustar los valores para mover la imagen */
+        left:1%;
+        width: 270;
+        height: 270px;
+        border-radius: 50%;
+        margin:auto;
+        border:2px solid rgb(29, 10, 63);
+        display: block;
+       
+    }
+
+}
+
+ 
+
+
+
+
+ 
+  

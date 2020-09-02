@@ -1,0 +1,85 @@
+body{margin: 0px; font-family: sans-serif;}
+header{width: 100%; display: table; background-color: rgb(29, 32, 41); margin-bottom: 0px; z-index: 1000;position: fixed; top: 0px;
+    background-image: url(img/logo.jpg); background-repeat: no-repeat;background-size: 100px 80px;background-position: right;
+}/*este es el color del 
+header y todo lo que lo contiene*/
+#btn-menu{display: none;}
+header label{display:none;width: 30px;height: 30px; padding:10px ;border-right: 1px solid #fff;}/*aqui es para
+darle estilo al icono del menu y display none para que no aparezvca en pantalla normal*/
+header label:hover{cursor: pointer; background:rgb(201, 80, 80)}
+.menu ul{margin: 0;list-style: none;padding:0 ; display: flex; flex-direction: row;}
+.menu li:hover{background-color:#002e5b;}/*aqui establecemos el color delcursor azul*/
+.menu li a{display:block;padding: 35px 30px;color:#fff; text-decoration:none ;}/*aqui es para darle anchura a lo azul
+del cursor*/
+body{background-image: url(zaman.png); background-repeat: no-repeat; background-size: 90px 80px;}
+
+/*aqui empieza el contenedor de la pagina*/
+
+
+p{float:center;width: 70%; text-align: justify;}
+
+h1{margin: 0px ;  font-size: 30px; padding: 15px 0px; color: brown;position: 20px 10px;}
+
+/*aqui empieza el contenedor uno*/
+
+.contenedordos{
+    
+  position: absolute;
+  display: inline-block;
+  text-align: center;
+  width: 70%;
+  
+}
+
+#imagenuno {
+    position:relative;
+    top: 150px; /* ajustar los valores para mover la imagen */
+    left: -15%;
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    margin:auto;
+    border:2px solid rgb(29, 10, 63);
+    display: block;
+    
+   
+}
+
+h2{position:relative;margin: 0px ;  font-size: 20px; left: -15%; color: rgb(56, 38, 138); top:120px;}
+h2 a{text-decoration: none;}/*esto sirve para quitarle la linea al vinculo*/
+
+p.anunciouno{position:absolute; width: 50%; left: 12%; top:150%; /*font-size 1vw e con esta propiedad se pude hacer
+    responsive un texto y que se haga pequeño en pantalla pequeña*/
+}/*los estilos de top funcionan solo en las etiquetas p*/
+
+
+/*aqui empieza el contenedor dos*/
+.contenedortres{
+    
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    width: 70%;
+    
+  }
+  
+  #imagendos {
+      position:relative;
+      top: 150px; /* ajustar los valores para mover la imagen */
+      left: 52%;
+      width: 270px;
+      height: 270px;
+      border-radius: 50%;
+      margin:auto;
+      border:2px solid rgb(29, 10, 63);
+      display: block;
+      
+     
+  }
+  
+  h3{position:relative;margin: 0px ;  font-size: 20px; left: 52%; color: rgb(56, 38, 138); top:120px;}
+  h3 a{text-decoration: none;}/*esto sirve para quitarle la linea al vinculo*/
+  
+  p.anunciodos{position:absolute; width: 50%; left: 75%; top:150%; /*font-size 1vw e con esta propiedad se pude hacer
+      responsive un texto y que se haga pequeño en pantalla pequeña*/
+  }/*los estilos de top funcionan solo en las etiquetas p*/
